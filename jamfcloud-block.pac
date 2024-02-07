@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
 
-    if (dnsDomainIs(host, ".jamfcloud.com")) {
+    if (dnsDomainIs(host, "stakadnds.jamfcloud.com")) {
         return "PROXY localhost";
     }
 
